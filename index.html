@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rijschool Apex – Haal je rijbewijs met zelfvertrouwen</title>
+  <meta name="description" content="Rijles op maat, ervaren instructeurs en een duidelijk plan naar je rijbewijs.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  //ZHULIDE.Code 
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="#top" aria-label="Rijschool Apex, naar boven">
+    <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path d="M4 26 16 5l12 21h-7l-5-9-5 9z" fill="currentColor"/></svg>
+    Apex
+  </a>
+  <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span><span></span><span></span></button>
+  <nav id="menu" aria-label="Hoofdmenu">
+    <a href="#lessen">Prijzen</a>
+    <a href="#route">Route naar je rijbewijs</a>
+    <a href="#contact" class="btn btn-small">Proefles boeken</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <canvas id="scene" aria-hidden="true"></canvas>
+    <div class="badge" id="badge" aria-hidden="true">Geslaagd! 👍</div>
+    <div class="hero-text">
+      <h1>Rij zelfverzekerd naar je rijbewijs.</h1>
+      <p>Schakel-, automaat- en motorrijlessen met ervaren instructeurs. Je leert in je eigen tempo, op de routes van je examen.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn">Plan een proefles</a>
+        <a href="#lessen" class="btn btn-ghost">Bekijk de pakketten</a>
+      </div>
+    </div>
+    <ul class="stats" aria-label="Resultaten">
+      <li><strong>92%</strong> slaagt binnen 40 lessen</li>
+      <li><strong>15 jaar</strong> ervaring</li>
+      <li><strong>4,9/5</strong> beoordeling</li>
+    </ul>
+  </section>
+
+  <section class="section" id="lessen">
+    <h2>Pakketten en prijzen</h2>
+    <p class="lead">Kies een pakket of boek losse lessen. Je leert bij ons schakel, automaat of motor.</p>
+    <div class="cards">
+      <article class="card tilt">
+        <h3>Startpakket</h3>
+        <p class="price"><del>€ 775</del>€ 750</p>
+        <span class="save">Je bespaart € 25</span>
+        <ul>
+          <li>10 lessen van 60 minuten</li>
+          <li>Praktijkexamen (t.w.v. € 300)</li>
+        </ul>
+        <a href="#contact" class="btn btn-ghost">Kies startpakket</a>
+      </article>
+      <article class="card tilt">
+        <h3>Premium Pakket</h3>
+        <p class="price"><del>€ 2.325</del>€ 2.250</p>
+        <span class="save">Je bespaart € 75</span>
+        <ul>
+          <li>30 lessen van 60 minuten</li>
+          <li>Tussentijdse toets</li>
+          <li>Praktijkexamen</li>
+          <li>Herexamen</li>
+        </ul>
+        <a href="#contact" class="btn btn-ghost">Kies premium</a>
+      </article>
+      <article class="card card-main tilt">
+        <span class="ribbon">Beste deal</span>
+        <h3>Uitstekend Pakket</h3>
+        <p class="price"><del>€ 2.800</del>€ 2.700</p>
+        <span class="save">Je bespaart € 100</span>
+        <ul>
+          <li>40 lessen van 60 minuten</li>
+          <li>Tussentijdse toets</li>
+          <li>Praktijkexamen</li>
+          <li>Herexamen</li>
+        </ul>
+        <a href="#contact" class="btn">Kies uitstekend</a>
+      </article>
+    </div>
+
+    <div class="extras">
+      <div class="panel">
+        <h3>Losse diensten</h3>
+        <dl class="prices">
+          <div><dt>Losse rijles</dt><dd>€ 47,50</dd></div>
+          <div><dt>Faalangstexamen inclusief autohuur</dt><dd>€ 360</dd></div>
+          <div><dt>Tussentijdse toets inclusief autohuur</dt><dd>€ 275</dd></div>
+          <div><dt>Praktijkexamen inclusief autohuur</dt><dd>€ 300</dd></div>
+          <div><dt>BNOR-examen inclusief autohuur</dt><dd>€ 330</dd></div>
+          <div><dt>Gezondheidsverklaring</dt><dd>€ 46,90</dd></div>
+          <div><dt>Theorie-examen CBR</dt><dd>€ 50,50</dd></div>
+        </dl>
+      </div>
+      <div class="panel">
+        <h3>Vervolgpakketten</h3>
+        <p>Al een tijdje gereden en heb je nog een paar lessen nodig? Dan koop je losse lessen met korting.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th scope="col">Pakket</th><th scope="col">Wat je krijgt</th><th scope="col">Was</th><th scope="col">Nu</th></tr></thead>
+            <tbody>
+            <tr><th scope="row">Vervolgpakket S</th><td>5 x 60 min</td><td><del>€ 237,50</del></td><td><strong>€ 230</strong></td></tr>
+            <tr><th scope="row">Vervolgpakket M</th><td>10 x 60 min</td><td><del>€ 475</del></td><td><strong>€ 465</strong></td></tr>
+            <tr><th scope="row">Vervolgpakket L</th><td>15 x 60 min</td><td><del>€ 712,50</del></td><td><strong>€ 700</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section route" id="route">
+    <h2>Zo kom je aan je rijbewijs</h2>
+    <p class="lead">Vijf stappen. Jij bepaalt het tempo.</p>
+    <ol class="steps">
+      <li class="step tilt" style="--i:0"><span class="sign"></span><div class="body"><h3>Kennismaking</h3><p>We bepalen samen je niveau en je doel. Gratis en vrijblijvend.</p></div></li>
+      <li class="step tilt" style="--i:1"><span class="sign"></span><div class="body"><h3>Theorie</h3><p>Oefen met de app en doe het examen als jij er klaar voor bent.</p></div></li>
+      <li class="step tilt" style="--i:2"><span class="sign"></span><div class="body"><h3>Praktijklessen</h3><p>Van de eerste meters tot stad en snelweg, in schakel, automaat of motor.</p></div></li>
+      <li class="step tilt" style="--i:3"><span class="sign"></span><div class="body"><h3>Tussentijdse toets</h3><p>Zie precies wat je al kunt en waar je nog op moet letten.</p></div></li>
+      <li class="step tilt" style="--i:4"><span class="sign"></span><div class="body"><h3>Examen</h3><p>We rijden de examenroutes door. Op de dag zelf niets nieuws.</p></div></li>
+    </ol>
+    <div class="route-cta"><a href="#contact" class="btn">Plan je kennismaking</a></div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div>
+      <h2>Boek je proefles</h2>
+      <p class="lead">Laat je gegevens achter. We bellen je binnen één werkdag om een tijd af te spreken.</p>
+      <p class="info">Havenstraat 12, Rotterdam<br>info@rijschoolapex.nl</p>
+    </div>
+    <form id="form" novalidate>
+      <label>Naam<input name="naam" type="text" autocomplete="name" required></label>
+      <label>Telefoonnummer<input name="tel" type="tel" autocomplete="tel" required></label>
+      <label>E-mailadres<input name="mail" type="email" autocomplete="email" required></label>
+      <label>Welke rijles?
+        <select name="les" required>
+          <option value="">Kies een rijles</option>
+          <option>Schakelrijles</option>
+          <option>Automaatrijles</option>
+          <option>Motorrijles</option>
+        </select>
+      </label>
+      <label>Pakket
+        <select name="pakket">
+          <option>Nog niet zeker</option>
+          <option>Startpakket</option>
+          <option>Premium Pakket</option>
+          <option>Uitstekend Pakket</option>
+          <option>Losse rijles</option>
+          <option>Vervolgpakket</option>
+        </select>
+      </label>
+      <button class="btn" type="submit">Verstuur aanvraag</button>
+      <p class="form-msg" id="msg" role="status"></p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Rijschool Apex</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
